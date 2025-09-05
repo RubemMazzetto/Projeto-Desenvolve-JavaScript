@@ -1,0 +1,11 @@
+#taskList li {
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+#taskList li:hover {
+  background-color: #e5e7eb; /* Tailwind gray-200 */
+}
+
+#taskList button {
+  transition: background-color 0.3s ease;
+}
