@@ -1,0 +1,11 @@
+#feed > div {
+  transition: transform 0.2s ease;
+}
+
+#feed > div:hover {
+  transform: translateY(-2px);
+}
+
+.like-button {
+  transition: background-color 0.3s ease;
+}
