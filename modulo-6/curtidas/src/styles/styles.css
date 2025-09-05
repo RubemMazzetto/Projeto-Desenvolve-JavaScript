@@ -1,0 +1,7 @@
+#likesDisplay {
+  transition: color 0.3s ease;
+}
+
+#likesDisplay:hover {
+  color: #1d4ed8;
+}

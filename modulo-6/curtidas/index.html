@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sistema de Curtidas</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="src/styles/styles.css">
+</head>
+<body class="bg-gray-100 flex items-center justify-center min-h-screen">
+  <div class="bg-white p-6 rounded-lg shadow-lg w-full max-w-md">
+    <h1 class="text-2xl font-bold mb-4 text-center">Sistema de Curtidas</h1>
+    <div class="flex mb-4">
+      <input
+        type="text"
+        id="nameInput"
+        placeholder="Digite seu nome"
+        class="flex-1 p-2 border rounded-l-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
+      >
+      <button
+        id="likeButton"
+        class="bg-blue-500 text-white p-2 rounded-r-lg hover:bg-blue-600"
+      >
+        Curtir
+      </button>
+    </div>
+    <p id="likesDisplay" class="text-gray-700">Ninguém curtiu</p>
+  </div>
+  <script type="module" src="src/scripts/likeManager.js"></script>
+</body>
+</html>
