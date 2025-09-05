@@ -1,0 +1,7 @@
+#results ul li {
+  transition: background-color 0.3s ease;
+}
+
+#results ul li:hover {
+  background-color: #e5e7eb;
+}
