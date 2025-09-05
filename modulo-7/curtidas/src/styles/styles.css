@@ -1,0 +1,11 @@
+#likesDisplay {
+  transition: color 0.3s ease;
+}
+
+#likesDisplay:hover {
+  color: #1d4ed8; /* Tailwind blue-700 */
+}
+
+#clearButton {
+  transition: background-color 0.3s ease;
+}
